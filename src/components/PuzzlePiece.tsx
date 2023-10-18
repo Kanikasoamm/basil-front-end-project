@@ -19,4 +19,4 @@ const PuzzlePiece: React.FC<PuzzlePieceProps> = ({ content, position }) => {
   );
 };
 
-export default PuzzlePiece
+export default PuzzlePiece;
