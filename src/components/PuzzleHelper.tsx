@@ -19,7 +19,7 @@ interface PuzzleSolverState {
 }
 
 // Initialize state, puzzle board, BFS-related data structures, and other needed variables
-class PuzzleSolver extends Component<PuzzleSolverProps, PuzzleSolverState> {
+class PuzzleHelper extends Component<PuzzleSolverProps, PuzzleSolverState> {
   constructor(props: PuzzleSolverProps) {
     super(props);
     this.state = {
@@ -109,4 +109,4 @@ class PuzzleSolver extends Component<PuzzleSolverProps, PuzzleSolverState> {
   }
 }
 
-export default PuzzleSolver;
+export default PuzzleHelper;
